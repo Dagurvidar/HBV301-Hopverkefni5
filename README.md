@@ -7,6 +7,18 @@ Setjið ykkar eigin texta um **verkefnið ykkar** og takið út eða aðlagið t
 
 ## Stutt lýsing á kerfi 
 
+## Verkaskipting
+Dagur:
+- 3 innri gæðaeiginleika
+- 1 gæðakrafa í formlegri, tvær í óformlegri setningu
+- 2 pör af gæðaeiginleikum með hugsanlegum árekstrum
+
+Stefán:
+- 5 ytri gæðaeiginleika
+- 5 í óformlegri setningu
+- 1 par af gæðaeiginleikum með hugsanlegum árekstri
+
+
 ## Hópmeðlimir 
 
 
