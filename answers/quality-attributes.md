@@ -17,6 +17,6 @@ Veljið eina kröfu og lýsið henni í sér skrá með PLanguage sniði
 ## Innri (3)
 | Eiginleiki | Krafa (1 setning) | Rök/forsemdir (2–3 setn.) |
 |---|---|---|
-| 1. |  |  |
-| 2. |  |  |
-| 3. |  |  |
+| 1. Skalanleiki (Scalability) | Kerfið skal styðja fjönotendaaðgang og gagnavinnslu með hæfilegum viðbragðstíma (< 3 sek) þegar notendafjöldi tvöfaldast | Skalanleiki tryggir að kerfið viðhaldi frammistöðu þegar álag eykst, sem er mikilvægt fyrir kerfi með marga nemendur og kennara sem nota kerfið misjafnt fyrir utan sérstaka viðburði t.d. eins og einkunnaútgjöf. Skipulögð gagnavinnsla og kerfisbundið caching draga úr hættu á að kerfið hægist við hámarksnotkun. |
+| 2. Prófunarleiki (testability) | Prófanir ættu að prófa meira eða jafnt og 80% af kóða (coverage >= 80%) | Tryggir að villur greinist snemma og breytingar brjóti ekki kerfið. Þetta er mikilvægt svo að forritarar viti áður en þeir geta skilað inn breytingum hvort þær hafi haft óæskilegar afleyðingar. Þetta sparar þeim sem fara yfir kóðann tíma. |
+| 3. Viðhaldleiki (maintainability) | Föll <= 50 línur, ESList án villna. | Styður áreiðanleika, notkunargildi, aðgengi og lesanleika. Með því að hafa gott modularity er kóðinn lesanlegri og einnig styttri þar sem föll sem skipt eru í nokkur hjálparföll geta verið notuð annars staðar í kóðanum |
