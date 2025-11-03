@@ -65,5 +65,3 @@ Saman skilgreindu þeir **þrjú árekstrapör**, þar sem mismunandi gæðaeigi
 5. Verkefnið var unnið sameiginlega í GitHub með reglulegum commitum, pull requestum og kóðaskoðun (peer review).  
 
 ---
-
-✅ Verkefnið sýnir heildstæða nálgun á gæðakröfur, jafnvægi milli tæknilegra og notendamiðaðra eiginleika, og tengingu milli mælanlegra markmiða og viðskiptasýnar kerfisins.  
