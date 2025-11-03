@@ -17,6 +17,6 @@ Veljið eina kröfu og lýsið henni í sér skrá með PLanguage sniði
 ## Innri (3)
 | Eiginleiki | Krafa (1 setning) | Rök/forsemdir (2–3 setn.) |
 |---|---|---|
-| 1. |  |  |
-| 2. |  |  |
-| 3. |  |  |
+| 1. Einingahlutbinding (modularity) | Einingar í forriti skulu vera sjálfstæðar með skýr API og án þess að vera háð öðrum einingum | Skýr afmörkun gerir viðhald og uppfærslur einfaldari og gerir forritið auðlesanlegra |
+| 2. Prófunarleiki (testability) | Prófanir ættu að prófa meira eða jafnt og 80% af kóða (coverage >= 80%) | Tryggir að villur greinist snemma og breytingar brjóti ekki kerfið |
+| 3. Viðhaldleiki (maintainability) | Föll <= 50 línur, ESList án villna. | Styður áreiðanleika, notkunargildi, aðgengi og lesanleika. |
