@@ -16,7 +16,7 @@ Helstu markmið kerfisins eru að tryggja **gagnsæi, áreiðanleika og einfaldl
 
 **Dagur Ingi Viðar**  
 - 3 **innri gæðaeiginleikar**  
-- 1 **gæðakrafa í formlegri setningu (PLanguage)**  
+- 1 **gæðakrafa í formlegri setningu (PLanguage), rest óformlegt**  
 - 2 **pör** af gæðaeiginleikum með hugsanlegum árekstrum  
 
 **Stefán Steinar Guðlaugsson**  
