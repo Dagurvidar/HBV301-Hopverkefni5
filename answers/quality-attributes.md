@@ -4,14 +4,15 @@
 > Innri (internal) — viðhald/þróun: 
 
 Veljið eina kröfu og lýsið henni í sér skrá með PLanguage sniði 
-## Ytri (5)
+
 | Eiginleiki | Krafa (1 setning) | Rök/forsemdir (2–3 setn.) |
 |---|---|---|
-| 1. |  |  |
-| 2. |  |  |
-| 3. |  |  |
-| 4. |  |  |
-| 5. |  |  |
+| **1. Notagildi (Usability)** | Kerfið skal vera þannig hannað að nýr notandi geti framkvæmt helstu aðgerðir (skoðað einkunnir, skilað verkefnum) án leiðbeininga innan 2 mínútna. | Nemendur eru fjölbreyttur hópur með mismunandi tæknifærni og þurfa að geta notað kerfið án flókins námsferils. Einfalt viðmót dregur úr villum og stuðlar að ánægju notenda. Ef notagildi er lágt gæti það dregið úr notkun og trausti á kerfinu. |
+| **2. Frammistaða (Performance)** | Kerfið skal hlaða helstu síðum (t.d. yfirlit yfir einkunnir) innan 3 sekúndna í 95% tilvika. | Nemendur og kennarar vinna undir tímaþrýstingi, sérstaklega í lok annar. Hraðvirk svörun eykur trúverðugleika kerfisins og dregur úr pirringi notenda. Takmarkaður fjárhagsrammi kallar á skilvirka kóðun og gagnageymslu. |
+| **3. Öryggi (Security)** | Kerfið skal tryggja að aðeins viðkomandi notandi hafi aðgang að sínum gögnum með öruggri auðkenningu og dulkóðun gagna í flutningi. | Kerfið vinnur með viðkvæmar persónuupplýsingar um námsárangur og verkefni sem falla undir persónuverndarlög. Öruggt aðgengi byggir upp traust og uppfyllir lagakröfur. Vanræksla í öryggi gæti valdið trúnaðarbresti og ímyndarskaða. |
+| **4. Aðgengi (Accessibility)** | Kerfið skal uppfylla WCAG 2.1 Level AA staðal til að tryggja nothæfi fyrir notendur með sjón- eða hreyfihömlun. | Skólakerfi þurfa að vera aðgengileg öllum, óháð líkamlegum eða tæknilegum hindrunum. Með því að fylgja stöðlum tryggjum við jöfnuð í aðgengi og lagalegt samræmi. Ef aðgengi er takmarkað geta sumir notendur ekki nýtt kerfið sjálfstætt. |
+| **5. Áreiðanleiki (Reliability)** | Kerfið skal hafa aðgengi (uptime) að lágmarki 99% yfir önnina og endurheimta þjónustu innan 10 mínútna við minniháttar truflanir. | Einkunnagjöf og verkefnaskil eru tímaháð, svo notendur þurfa stöðugan aðgang að kerfinu. Hátt þjónustuhlutfall byggir á stöðugu hýsingarumhverfi og sjálfvirkri viðvörunarkerfi. Truflanir geta haft bein áhrif á námsframvindu og traust. |
+
 
 ## Innri (3)
 | Eiginleiki | Krafa (1 setning) | Rök/forsemdir (2–3 setn.) |
