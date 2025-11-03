@@ -47,7 +47,8 @@ Saman skilgreindu þeir **þrjú árekstrapör**, þar sem mismunandi gæðaeigi
 
 ## Möppur & skráauppsetning  
 
-- `answers/quality-attributes.md` — allar 8 gæðakröfur (5 ytri, 3 innri).  
+- `answers/quality-attributes.md` — allar 8 gæðakröfur (5 ytri, 3 innri).
+- `answers/planguage.md` — gæðakrafa skrifuð með formlegri setningu í PLanguage format-i
 - `answers/conflicts.md` — 3 árekstrapör með forgangsröðun og rökum.  
 - `templates/QUALITY_ATTRIBUTE.md` — sniðmát fyrir hvern gæðaeiginleika.  
 - `templates/CONFLICT_PAIR.md` — sniðmát fyrir hvert árekstrapar.  
