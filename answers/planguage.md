@@ -1,60 +1,46 @@
 # Gæðakrafa lýst í PLanguage 
 
-> Þetta skjal sýnir hvernig á að skilgreina eina **gæðakröfu** með aðferðinni **P-Language** samkvæmt Wiegers & Beatty (kafli 14).  
-> Fyllið út reiti með upplýsingum um gæðaeiginleika og mælanleg markmið.
+> Þetta skjal sýnir hvernig á að skilgreina eina **gæðakröfu** með aðferðinni **P-Language** samkvæmt Wiegers & Beatty (kafli 14).
 
 ---
 
 ## Merkimiði (TAG)
-Einkvæmt auðkenni gæðakröfunnar.  
-**Dæmi:** `Performance.Report.ResponseTime`
+Quality.Testability.CodeCoverage
 
 ---
 
 ## Tilgangur / Ásetningur (AMBITION)
-Lýsir **tilgangi** eða **ástæðu** fyrir kröfunni — hvað hún á að bæta, tryggja eða hámarka.  
-**Dæmi:** Kerfið skal bregðast hratt við þegar notandi biður um að mynda skýrslu.
+Kóði kerfisins skal vera auðprófanlegur og að sjálfvirkar prófanir nái yfir hæfilega stóran hluti virkni þess til þess að villur greinist snemma og breytingar valda ekki ófyrirséðum afleiðingum. Þetta er til að spara tíma við yfirferð og viðhald og til að auka áreiðanleika kerfisins.
 
 ---
 
 ## Mælikvarði (SCALE)
-Skilgreinir **hvað er mælt** og í **hvaða mælieiningum**.  
-**Dæmi:** Sekúndur sem líða frá því að notandi sendir beiðni þar til skýrslan byrjar að birtast.
+Hlutfall kóða sem er keyrður að minnsta kosti einu sinni af sjálfvirkum einingaprófum, mælt með prósentu (code coverage %)
 
 ---
 
 ## Mælir / Mæliaðferð (METER)
-Lýsir **hvernig** eða **hvar** gæðaeiginleikinn er mældur og hvaða aðferð er notuð.  
-**Dæmi:** Stoppklukkupróf á 30 dæmigerðum skýrslum samkvæmt skilgreindu notkunarferli.
+Keyrsla á npm run test:coverage með Jest á helstu einingum. Coverage niðurstöður teknar úr Github Actions. Prófanir keyrðar við hvert merge á main branch.
 
 ---
 
 ## Markmið (GOAL)
-Lágmarksgildi sem **verður að nást** til að kröfunni sé fullnægt.  
-**Dæmi:** 95% allra skýrslna skulu byrja að birtast innan **8 sekúndna**.  
-*(Hagsmunaaðili: Skrifstofustjóri útibús)*
+Coverage skal vera a.m.k. 80% í einingum kerfis sem sjá um virkni eða geymslu gagna. (e.t.v. domain/ eða einfaldlega src/).
 
 ---
 
 ## Æskilegt (STRETCH)
-Æskilegt frammistöðugildi sem teymið reynir að ná.  
-**Dæmi:** Forskilgreindar skýrslur innan 2 sekúndna, allar skýrslur innan 5 sekúndna.
+Coverage >= 90%
 
 ---
 
 ## Óska (WISH)
-Gildi í besta heimi — markmið sem væri frábært að ná, en ekki krafa.  
-**Dæmi:** Allar skýrslur innan 1,5 sekúndna.
+100% coverage kóða
 
 ---
 
 ## Grunnkerfi (BASE PLATFORM)
-Upplýsingar um viðmiðunarumhverfi fyrir mælingar.  
-**Dæmi:** Fjórkjarna örgjörvi, 8 GB RAM, Windows 10, 50 % frítt minni, 70 % CPU tiltækt, tengihraði 30 Mbps.
+Windows 11 x64, Node.js 20 LTS, Jest 29+, GitHub Actions CI með 4 vCPU / 8 GB RAM, PostgreSQL 15, dæmigerður gagnagrunnur með 10 000 skrám í prófunargögnum.
 
 ---
 
-
-✅ **Leiðbeining:**  
-Þegar þú skrifar þína eigin PLanguage kröfu skaltu velja einn gæðaeiginleika og fylla út alla reiti.  
-Markmiðið er að gera kröfuna **mælanlega, prófanlega og rekjanlega**.
